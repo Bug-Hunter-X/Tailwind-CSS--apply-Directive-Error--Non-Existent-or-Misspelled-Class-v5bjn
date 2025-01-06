@@ -1,0 +1,8 @@
+This error occurs when using Tailwind's `@apply` directive with a class that doesn't exist or is misspelled.  For example:
+
+```html
+<div class="bg-blue-500 @apply text-center">
+</div>
+```
+
+If `text-center` is not defined in your Tailwind configuration, this will cause a build error or unexpected behavior depending on your setup.  The error message is not always clear and might appear as a general CSS parsing issue.
