@@ -1,0 +1,10 @@
+The solution is to double-check your Tailwind configuration and ensure that all classes used within `@apply` directives are correctly defined and spelled.  You can also use your IDE's autocompletion to help prevent this kind of error.
+
+Here's the corrected code:
+
+```html
+<div class="bg-blue-500 text-center">
+</div>
+```
+
+By removing `@apply` and directly applying the class, we ensure the correct class is used.  If you need to use `@apply` for more complex scenarios, thoroughly review your Tailwind configuration file and ensure all classes exist.
